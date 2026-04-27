@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRON CORE — Контакты</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__inner">
+            <a href="index.html" class="logo" aria-label="IRON CORE — на главную">
+                <svg class="logo__icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="2" y="14" width="8" height="8" rx="1.5" stroke="currentColor" stroke-width="2.2"/>
+                    <rect x="26" y="14" width="8" height="8" rx="1.5" stroke="currentColor" stroke-width="2.2"/>
+                    <rect x="10" y="15" width="16" height="6" rx="1" stroke="currentColor" stroke-width="2.2"/>
+                    <line x1="12" y1="10" x2="12" y2="14" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+                    <line x1="16" y1="10" x2="16" y2="14" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+                    <line x1="20" y1="10" x2="20" y2="14" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+                    <line x1="24" y1="10" x2="24" y2="14" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+                    <line x1="12" y1="22" x2="12" y2="26" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+                    <line x1="16" y1="22" x2="16" y2="26" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+                    <line x1="20" y1="22" x2="20" y2="26" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+                    <line x1="24" y1="22" x2="24" y2="26" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+                </svg>
+                <span class="logo__text">IRON<span class="logo__accent">CORE</span></span>
+            </a>
+            <nav class="nav" aria-label="Основная навигация">
+                <ul class="nav__list">
+                    <li><a href="index.html" class="nav__link">Главная</a></li>
+                    <li><a href="services.html" class="nav__link">Услуги</a></li>
+                    <li><a href="contact.html" class="nav__link nav__link--active">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-hero__title">СВЯЖИТЕСЬ <span class="text-accent">С НАМИ</span></h1>
+                <p class="page-hero__subtitle">Остались вопросы? Запишитесь на пробную тренировку.</p>
+            </div>
+        </section>
+
+        <section class="contact section">
+            <div class="container contact__grid">
+                <div class="contact__form-wrapper">
+                    <h2 class="contact__heading">НАПИШИТЕ НАМ</h2>
+                    <form class="form" action="#" method="post">
+                        <div class="form__group">
+                            <label for="name" class="form__label">Имя</label>
+                            <input type="text" id="name" name="name" class="form__input" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="form__group">
+                            <label for="email" class="form__label">Email</label>
+                            <input type="email" id="email" name="email" class="form__input" placeholder="email@example.com" required>
+                        </div>
+                        <div class="form__group">
+                            <label for="phone" class="form__label">Телефон</label>
+                            <input type="tel" id="phone" name="phone" class="form__input" placeholder="+7 (___) ___-__-__">
+                        </div>
+                        <div class="form__group">
+                            <label for="message" class="form__label">Сообщение</label>
+                            <textarea id="message" name="message" class="form__input form__input--textarea" placeholder="Ваше сообщение..." rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full">ОТПРАВИТЬ</button>
+                    </form>
+                </div>
+
+                <div class="contact__info">
+                    <h2 class="contact__heading">КОНТАКТЫ</h2>
+                    <div class="contact__details">
+                        <div class="contact__item">
+                            <div class="contact__icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13 15.87 2 12 2Z" stroke="currentColor" stroke-width="2"/>
+                                    <circle cx="12" cy="9" r="2.5" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <span>ул. Стальная, 14, Москва</span>
+                        </div>
+                        <div class="contact__item">
+                            <div class="contact__icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21 15.5V18.5C21 19.6 20.1 20.5 19 20.5C10.6 20.5 3.5 13.4 3.5 5C3.5 3.9 4.4 3 5.5 3H8.5C9.6 3 10.5 3.9 10.5 5C10.5 6.3 10.7 7.5 11.1 8.6C11.3 9.1 11.2 9.7 10.8 10.1L9.5 11.4C11.2 14.3 13.7 16.8 16.6 18.5L17.9 17.2C18.3 16.8 18.9 16.7 19.4 16.9C20.5 17.3 21.7 17.5 23 17.5C24.1 17.5 25 18.4 25 19.5V21.5C25 22.6 24.1 23.5 23 23.5C12.4 23.5 0.5 11.6 0.5 1C0.5 -0.1 1.4 -1 2.5 -1H4.5C5.6 -1 6.5 -0.1 6.5 1C6.5 2.3 6.7 3.5 7.1 4.6C7.3 5.1 7.2 5.7 6.8 6.1L5.5 7.4C7.2 10.3 9.7 12.8 12.6 14.5L13.9 13.2C14.3 12.8 14.9 12.7 15.4 12.9C16.5 13.3 17.7 13.5 19 13.5C20.1 13.5 21 14.4 21 15.5Z" stroke="currentColor" stroke-width="2" transform="scale(0.9) translate(1.5, 1.5)"/>
+                                </svg>
+                            </div>
+                            <span>+7 (999) 123-45-67</span>
+                        </div>
+                        <div class="contact__item">
+                            <div class="contact__icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="2" y="4" width="20" height="16" rx="2" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M2 6L12 13L22 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <span>info@ironcore.ru</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__map placeholder placeholder--dark">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="6" y="6" width="36" height="36" rx="2" stroke="currentColor" stroke-width="1.8"/>
+                            <path d="M6 18H42" stroke="currentColor" stroke-width="1.8"/>
+                            <path d="M24 6V42" stroke="currentColor" stroke-width="1.8"/>
+                            <circle cx="24" cy="24" r="6" stroke="currentColor" stroke-width="1.8"/>
+                            <circle cx="24" cy="24" r="1.5" fill="currentColor"/>
+                        </svg>
+                        <span>КАРТА</span>
+                    </div>
+
+                    <div class="contact__hours">
+                        <h3>ЧАСЫ РАБОТЫ</h3>
+                        <p>Пн–Вс: Круглосуточно</p>
+                        <p>Персонал на ресепшене: 08:00 – 22:00</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div class="footer__brand">
+                <span class="logo__text">IRON<span class="logo__accent">CORE</span></span>
+                <p class="footer__tagline">Куй свое тело. Каждый день.</p>
+            </div>
+            <div class="footer__nav">
+                <h4 class="footer__heading">Навигация</h4>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="services.html">Услуги</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer__info">
+                <h4 class="footer__heading">Контакты</h4>
+                <p>ул. Стальная, 14, Москва</p>
+                <p>+7 (999) 123-45-67</p>
+                <p>info@ironcore.ru</p>
+            </div>
+        </div>
+        <div class="footer__bottom container">
+            <p>&copy; 2025 IRON CORE. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>ы

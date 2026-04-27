@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRON CORE — Главная</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__inner">
+            <a href="index.html" class="logo" aria-label="IRON CORE — на главную">
+                <svg class="logo__icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="2" y="14" width="8" height="8" rx="1.5" stroke="currentColor" stroke-width="2.2"/>
+                    <rect x="26" y="14" width="8" height="8" rx="1.5" stroke="currentColor" stroke-width="2.2"/>
+                    <rect x="10" y="15" width="16" height="6" rx="1" stroke="currentColor" stroke-width="2.2"/>
+                    <line x1="12" y1="10" x2="12" y2="14" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+                    <line x1="16" y1="10" x2="16" y2="14" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+                    <line x1="20" y1="10" x2="20" y2="14" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+                    <line x1="24" y1="10" x2="24" y2="14" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+                    <line x1="12" y1="22" x2="12" y2="26" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+                    <line x1="16" y1="22" x2="16" y2="26" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+                    <line x1="20" y1="22" x2="20" y2="26" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+                    <line x1="24" y1="22" x2="24" y2="26" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+                </svg>
+                <span class="logo__text">IRON<span class="logo__accent">CORE</span></span>
+            </a>
+            <nav class="nav" aria-label="Основная навигация">
+                <ul class="nav__list">
+                    <li><a href="index.html" class="nav__link nav__link--active">Главная</a></li>
+                    <li><a href="services.html" class="nav__link">Услуги</a></li>
+                    <li><a href="contact.html" class="nav__link">Контакыты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="background_banner">
+                <div class="container hero__grid">
+                    <div class="hero__content">
+                        <h1 class="hero__title">КУЙ СВОЕ <span class="text-accent">ТЕЛО</span></h1>
+                        <p class="hero__subtitle">Премиальный тренажерный зал для тех, кто не ищет оправданий. Пространство силы, дисциплины и результата.</p>
+                        <a href="services.html" class="btn btn--primary">ВЫБРАТЬ АБОНЕМЕНТ</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features section">
+            <div class="container">
+                <h2 class="section__title">ПОЧЕМУ <span class="text-accent">IRON CORE</span></h2>
+                <div class="features__grid">
+                    <div class="feature-card">
+                        <div class="feature-card__icon">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20" cy="20" r="16" stroke="currentColor" stroke-width="2.5"/>
+                                <circle cx="20" cy="20" r="8" stroke="currentColor" stroke-width="2.5"/>
+                                <circle cx="20" cy="20" r="2" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">ТОПОВОЕ ОБОРУДОВАНИЕ</h3>
+                        <p class="feature-card__text">Тренажеры премиум-класса от ведущих мировых брендов.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card__icon">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20" cy="20" r="16" stroke="currentColor" stroke-width="2.5"/>
+                                <path d="M20 12V20L26 24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <circle cx="20" cy="20" r="2" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">24/7 ДОСТУП</h3>
+                        <p class="feature-card__text">Тренируйтесь в любое время дня и ночи.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card__icon">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20" cy="12" r="6" stroke="currentColor" stroke-width="2.5"/>
+                                <path d="M8 36C8 28 14 22 20 22C26 22 32 28 32 36" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">ПРОФИ-ТРЕНЕРЫ</h3>
+                        <p class="feature-card__text">Команда сертифицированных специалистов.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="trainers section section--dark">
+            <div class="container">
+                <h2 class="section__title">НАШИ <span class="text-accent">ТРЕНЕРЫ</span></h2>
+                <div class="trainers__grid">
+                    <div class="trainer-card">
+                        <div class="trainer-card__photo">
+                            <img 
+                                src="img/тренер1.jpg" 
+                                alt="Алексей Волков — тренер" 
+                                class="trainer-card__img"
+                                width="140" height="140" loading="lazy"
+                            >
+                        </div>
+                        <h3 class="trainer-card__name">АЛЕКСЕЙ ВОЛКОВ</h3>
+                        <p class="trainer-card__spec">Силовой тренинг / Пауэрлифтинг</p>
+                    </div>
+                    <div class="trainer-card">
+                        <div class="trainer-card__photo">
+                            <img 
+                                src="img/тренер3.jpg" 
+                                alt="Мария Соколова — тренер" 
+                                class="trainer-card__img"
+                                width="140" height="140" loading="lazy"
+                            >
+                        </div>
+                        <h3 class="trainer-card__name">МАРИЯ СОКОЛОВА</h3>
+                        <p class="trainer-card__spec">Функциональный тренинг / Йога</p>
+                    </div>
+                    <div class="trainer-card">
+                        <div class="trainer-card__photo">
+                            <img 
+                                src="img/тренер2.avif" 
+                                alt="Даниил Кречет — тренер" 
+                                class="trainer-card__img"
+                                width="140" height="140" loading="lazy"
+                            >
+                        </div>
+                        <h3 class="trainer-card__name">ДАНИИЛ КРЕЧЕТ</h3>
+                        <p class="trainer-card__spec">Кроссфит / Воркаут</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta section">
+            <div class="container cta__inner">
+                <h2 class="cta__title">ГОТОВ НАЧАТЬ?</h2>
+                <p class="cta__text">Первая тренировка — бесплатно.</p>
+                <a href="contact.html" class="btn btn--primary">СВЯЗАТЬСЯ С НАМИ</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div class="footer__brand">
+                <span class="logo__text">IRON<span class="logo__accent">CORE</span></span>
+                <p class="footer__tagline">Куй свое тело. Каждый день.</p>
+            </div>
+            <div class="footer__nav">
+                <h4 class="footer__heading">Навигация</h4>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="services.html">Услуги</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer__info">
+                <h4 class="footer__heading">Контакты</h4>
+                <p>ул. Стальная, 14, Москва</p>
+                <p>+7 (999) 123-45-67</p>
+                <p>info@ironcore.ru</p>
+            </div>
+        </div>
+        <div class="footer__bottom container">
+            <p>&copy; 2025 IRON CORE. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
